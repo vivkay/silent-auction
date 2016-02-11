@@ -23,12 +23,10 @@ html {
 
 body{
   font-family: sans-serif;
-  @include zero;
-  // Hides close button if there is no js
-  &.noscript .close-btn,
-  &.noscript .toggle-btn{
-      display: none;
-  }
+}
+
+.background {
+  background-image: url("../img/background.png");
 }
 
 @media only screen and (min-width: 38em){
