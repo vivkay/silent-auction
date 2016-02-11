@@ -12,9 +12,25 @@
   <header>
   </header>
 
+
   <main>
+    <div class="grid">
+  {% for species in site.data.species %}
+    <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-4 unit-xl-1-4">
+        <div class="hexagon hexagon1">
+          <div class="hexagon-in1">
+            <div class="hexagon-in2">
+            </div>
+          </div>
+        </div>
+    </div>
+  {% endfor %}
+</div>
+
+<!--
     <div class="hexagon hexagon1"><div class="hexagon-in1"><div class="hexagon-in2"></div></div></div>
   </main>
+  -->
 
 </body>
 </html>
