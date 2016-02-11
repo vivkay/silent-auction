@@ -2,8 +2,9 @@
 layout: default
 ---
 
+
 <div class="grid">
-  {% for species in site.data.species %}
+  {% for items in site.data.items %}
     <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-4 unit-xl-1-4">
         <div class="hexagon hexagon1">
           <div class="hexagon-in1">
@@ -11,6 +12,18 @@ layout: default
             </div>
           </div>
         </div>
+        <p class="white">TEST</p>
+        <p class="white">{{items.number}}</p>
+        <p class="white">{{items.description}}</p>
+        <p class="white">{{items.sponsor}}</p>
     </div>
   {% endfor %}
 </div>
+
+
+    <div class="hexagon hexagon1"><div class="hexagon-in1"><div class="hexagon-in2"></div></div></div>
+
+
+
+
+

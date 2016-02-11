@@ -1378,6 +1378,9 @@ body {
 .background {
   background-image: url("../img/background.png"); }
 
+.white {
+  color: #f8f2e9; }
+
 .hexagon {
   overflow: hidden;
   visibility: hidden;
