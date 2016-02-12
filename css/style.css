@@ -1381,6 +1381,15 @@ body {
 .white {
   color: #f8f2e9; }
 
+.logo img {
+  margin: 1em; }
+
+.top-bg {
+  width: 100%;
+  border-top: 2px solid #f8f2e9;
+  margin-bottom: 2em;
+  padding: 1em; }
+
 .container {
   text-align: center;
   position: relative; }

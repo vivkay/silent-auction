@@ -32,6 +32,17 @@ body{
   color: $off-white;
 }
 
+.logo img {
+  margin: 1em;
+}
+
+.top-bg {
+  width: 100%;
+  border-top: 2px solid $off-white;
+  margin-bottom: 2em;
+  padding: 1em;
+}
+
 .container {
   text-align: center;
   position: relative;
@@ -44,6 +55,8 @@ body{
 .text-container {
 
 }
+
+
 
 // Hexagons
 
