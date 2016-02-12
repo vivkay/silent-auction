@@ -1378,11 +1378,38 @@ body {
 .background {
   background-image: url("../img/background.png"); }
 
+.title {
+  opacity: 0.4;
+  margin: 1em;
+  font-size: 2em;
+  -webkit-animation: glow 6s ease-in-out forwards;
+  animation: glow 6s ease-in-out forwards; }
+
+@keyframes glow {
+  0% {
+    opacity: .4; }
+  50% {
+    opacity: .9; }
+  100% {
+    opacity: .4; } }
+@-webkit-keyframes glow {
+  0% {
+    opacity: .4; }
+  50% {
+    opacity: .9; }
+  100% {
+    opacity: .4; } }
+.title:hover {
+  opacity: 1;
+  -webkit-transition: opacity 1s linear;
+          transition: opacity 1s linear; }
+
 .white {
   color: #f8f2e9; }
 
 .logo img {
-  margin: 1em; }
+  margin: 1em;
+  height: 40px; }
 
 .top-bg {
   width: 100%;
