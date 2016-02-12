@@ -1382,8 +1382,8 @@ body {
   opacity: 0.4;
   margin: 1em;
   font-size: 2em;
-  -webkit-animation: glow 6s ease-in-out forwards;
-  animation: glow 6s ease-in-out forwards; }
+  -webkit-animation: glow 3s ease-in-out forwards;
+  animation: glow 3s ease-in-out forwards; }
 
 @keyframes glow {
   0% {
